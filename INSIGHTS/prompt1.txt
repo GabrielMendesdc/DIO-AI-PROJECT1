@@ -1,0 +1,38 @@
+Vou analisar os dados desses três arquivos e buscar insights focados em economia, aumento da produção, falhas nas vendas e padrões úteis para diretores, fábrica e marketing. Vou começar carregando os dados e verificando a estrutura deles.
+
+Os três datasets (AliExpress, Etsy e Shopee) possuem a mesma estrutura, incluindo colunas como SKU, produto vendido, data, quantidade, preço unitário, total pago, moeda, cupom de desconto, valor do desconto, país de entrega e informações do comprador.
+
+Agora, vou explorar os seguintes pontos:
+1. **Tendência de vendas**: quais produtos vendem mais e onde?
+2. **Impacto dos descontos**: os cupons realmente aumentam as vendas?
+3. **Países mais lucrativos**: onde as vendas geram mais receita?
+4. **Padrões de compra**: quais perfis de clientes compram mais?
+5. **Possíveis falhas**: algum marketplace tem desempenho inferior?
+
+Vou processar essas análises agora.
+
+Aqui estão os principais insights com base nos dados analisados:
+
+1. **Tendência de Vendas**:
+   - O produto mais vendido é o **NEW MEGANIUM RG 40XXV** (41 unidades).
+   - Outros modelos como **RG CubeXX, RG28XX e RG35XX** tiveram vendas equilibradas (~36 unidades cada).
+
+2. **Impacto dos Descontos**:
+   - Todas as vendas com desconto somam **178 unidades vendidas**, indicando que a estratégia pode estar funcionando.
+   - Sugestão: comparar o ticket médio de vendas com e sem desconto para avaliar a margem de lucro.
+
+3. **Países Mais Lucrativos**:
+   - **Canadá (R$ 4.090)** e **França (R$ 3.210)** geraram mais receita.
+   - **Japão, Austrália e Alemanha** também são mercados fortes.
+   - **EUA e Reino Unido tiveram receitas baixas**, indicando possível falta de demanda ou problemas logísticos.
+
+4. **Padrões de Compra**:
+   - O grupo **35-50 anos** comprou mais (88 unidades), seguido pelo grupo **50-65 anos** (43 unidades).
+   - Jovens **18-35 anos** compraram significativamente menos (~47 unidades no total).
+   - Pode ser interessante reforçar o marketing para o público jovem.
+
+5. **Desempenho por Marketplace**:
+   - Shopee teve o maior volume de vendas (64 unidades), seguido de AliExpress (58) e Etsy (56).
+   - Não há uma diferença drástica, mas pode valer a pena explorar campanhas específicas para cada plataforma.
+
+Quer aprofundar algum desses pontos ou buscar mais detalhes sobre um mercado específico?
