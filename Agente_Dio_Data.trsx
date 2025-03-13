@@ -1,0 +1,80 @@
+<project xmlns:nuance="https://developer.nuance.com/mix/nlu/trsx" xml:lang="pt-BR" nuance:version="2.0">
+  <metadata>
+    <entry key="SchemaName">cr0b4_agenteDio</entry>
+  </metadata>
+  <ontology base="https://developer.nuance.com/mix/nlu/trsx/ontology-1.0.xml">
+    <intents>
+      <intent name="i_Dadosdepreo" />
+      <intent name="i_Goodbye" />
+      <intent name="i_Greeting" />
+      <intent name="i_StartOver" />
+      <intent name="i_ThankYou" />
+    </intents>
+    <concepts>
+      <concept name="t-EndofConversation-Continue">
+        <relations>
+          <relation type="isA" conceptref="nuance_BOOLEAN" />
+        </relations>
+      </concept>
+      <concept name="t-EndofConversation-SurveyResponse">
+        <relations>
+          <relation type="isA" conceptref="nuance_BOOLEAN" />
+        </relations>
+      </concept>
+      <concept name="t-EndofConversation-TryAgain">
+        <relations>
+          <relation type="isA" conceptref="nuance_BOOLEAN" />
+        </relations>
+      </concept>
+      <concept name="t-Goodbye-EndConversation">
+        <relations>
+          <relation type="isA" conceptref="nuance_BOOLEAN" />
+        </relations>
+      </concept>
+      <concept name="t-StartOver-Confirm">
+        <relations>
+          <relation type="isA" conceptref="nuance_BOOLEAN" />
+        </relations>
+      </concept>
+    </concepts>
+  </ontology>
+  <dictionaries />
+  <samples>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">qual é o preço</sample>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">informações de preço</sample>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">quanto custa</sample>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">preço do produto</sample>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">dados de preço</sample>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">valor do item</sample>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">preço atual</sample>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">consultar preço</sample>
+    <sample intentref="i_Dadosdepreo" count="1" excluded="false" fullyVerified="true">verificar valor</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Tchau</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Tchau, agradeço mais uma vez</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Tchau, agradeço novamente</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Tchau, obrigado mais uma vez</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Tchau, obrigado novamente</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Tchau, obrigada mais uma vez</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Tchau, obrigada novamente</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Até mais</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Não, obrigado. Tchau.</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Não, obrigada. Tchau.</sample>
+    <sample intentref="i_Goodbye" count="1" excluded="false" fullyVerified="true">Até logo</sample>
+    <sample intentref="i_Greeting" count="1" excluded="false" fullyVerified="true">Boa tarde</sample>
+    <sample intentref="i_Greeting" count="1" excluded="false" fullyVerified="true">Bom dia</sample>
+    <sample intentref="i_Greeting" count="1" excluded="false" fullyVerified="true">Olá</sample>
+    <sample intentref="i_Greeting" count="1" excluded="false" fullyVerified="true">Ei</sample>
+    <sample intentref="i_Greeting" count="1" excluded="false" fullyVerified="true">Oi</sample>
+    <sample intentref="i_StartOver" count="1" excluded="false" fullyVerified="true">vamos começar novamente</sample>
+    <sample intentref="i_StartOver" count="1" excluded="false" fullyVerified="true">vamos começar de novo</sample>
+    <sample intentref="i_StartOver" count="1" excluded="false" fullyVerified="true">recomeçar</sample>
+    <sample intentref="i_StartOver" count="1" excluded="false" fullyVerified="true">começar novamente</sample>
+    <sample intentref="i_StartOver" count="1" excluded="false" fullyVerified="true">reiniciar</sample>
+    <sample intentref="i_ThankYou" count="1" excluded="false" fullyVerified="true">obrigado</sample>
+    <sample intentref="i_ThankYou" count="1" excluded="false" fullyVerified="true">obrigada</sample>
+    <sample intentref="i_ThankYou" count="1" excluded="false" fullyVerified="true">agradeço</sample>
+    <sample intentref="i_ThankYou" count="1" excluded="false" fullyVerified="true">muito obrigado</sample>
+    <sample intentref="i_ThankYou" count="1" excluded="false" fullyVerified="true">muito obrigada</sample>
+    <sample intentref="i_ThankYou" count="1" excluded="false" fullyVerified="true">valeu</sample>
+  </samples>
+</project>
